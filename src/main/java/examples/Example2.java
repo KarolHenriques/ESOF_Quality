@@ -4,7 +4,7 @@ public class Example2 {
 
     private void emptySynchronized() {
         synchronized (this) {
-            // Forgot implementation
+            Thread.sleep(3000);
         }
     }
 
