@@ -3,15 +3,16 @@ package examples;
 public class Example1 {
 
     private String checkStrValue = null;
+    private static final String someValue = "SomeValue"; 
 
-    public Example1() {
+    /*public Example1() {
         this.checkStrValue = "SomeValue";
-    }
+    }*/
 
     private void executeSomeConditions() {
-        if ("SomeValue".equals(this.checkStrValue)) {
+        if (someValue.equals(this.checkStrValue)) {
             // Condition 1
-        } else if ("SomeValue".equals(this.checkStrValue)) {
+        } else if (someValue.equals(this.checkStrValue)) {
             // Condition 2
         }
     }
